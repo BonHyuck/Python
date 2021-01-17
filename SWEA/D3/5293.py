@@ -1,46 +1,6 @@
 import sys
 sys.stdin = open('input.txt', 'r')
 
-def start_search(index):
-    global result
-
-    if result != "impossible":
-        return
-
-    if index >= length:
-        return
-
-    a = b = c = d = 0
-    for i in range(length - 1):
-        text = str(arr[i]) + str(arr[i+1])
-        if text == "00":
-            a += 1
-        elif text == "01":
-            b += 1
-        elif text == "10":
-            c += 1
-        elif text == "11":
-            d += 1
-
-        if A < a or B < b or C < c or D < d:
-            break
-
-    if A == a and B == b and C == c and D == d:
-        result = ''.join(arr)
-        return
-    else:
-        if arr.count(1) == length:
-            return
-        else:
-            for k in range(index, length):
-                arr[k] = 1
-                start_search(index + 1)
-                arr[k] = 0
-
-
-    return
-
-
 T = int(input())
 for test_case in range(1, T+1):
     # A : “00”
@@ -48,12 +8,30 @@ for test_case in range(1, T+1):
     # C : “10”
     # D : “11”
     A, B, C, D = map(int, input().split())
-    # 전체 문자열의 길이는 A+B+C+D+1
-    length = A+B+C+D+1
-    arr = [0] * length
+    # 결과를 담을 변수
     result = "impossible"
-    start_search(0)
-
-    print(result)
-
-    
+    # 00과 11이 있다면 01이나 10이 무조건 있기때문에
+    # A와 D가 1 이상이지만 B와 C가 0인 경우는 불가능
+    if A and D and B == 0 and C == 0:
+        result = "impossible"
+    # B와 C의 차이가 1 이하일때 가능하다.
+    # 둘의 차이가 2 이상이면 균형이 맞지 않아 생성 불가
+    elif abs(B-C) <= 1:
+        # 01 이 1개 더 많음
+        if B > C:
+            result = "0"*(A+1)+"1"*(D+1)+"01"*C
+        # 둘이 같음
+        elif B == C:
+            # 10 이나 01 없이 00만 있음
+            if B == 0 and A:
+                result = "0"*(A+1)
+            # 10 이나 01 없이 11만 있음
+            elif B == 0 and D:
+                result = "1" * (D + 1)
+            # 그외의 경우
+            else:
+                result = "1" * (D + 1) + "0" * (A + 1) + "10" * (B-1) + "1"
+        # 10 이 1개더 많음
+        else:
+            result = "1"*(D+1)+"0"*(A+1)+"10"*B
+    print('#{} {}'.format(test_case, result))
