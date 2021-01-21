@@ -63,7 +63,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.5293">
+  <component name="RunManager" selected="Python.4751">
     <configuration name="10570" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="D3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10761" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4751" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="D3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10761.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4751.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11285" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4789" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="D3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11285.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4789.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,19 +170,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.10761" />
-      <item itemvalue="Python.11285" />
       <item itemvalue="Python.10570" />
       <item itemvalue="Python.10580" />
       <item itemvalue="Python.5293" />
+      <item itemvalue="Python.4789" />
+      <item itemvalue="Python.4751" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4751" />
+        <item itemvalue="Python.4789" />
         <item itemvalue="Python.5293" />
         <item itemvalue="Python.10580" />
         <item itemvalue="Python.10570" />
-        <item itemvalue="Python.11285" />
-        <item itemvalue="Python.10761" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +222,22 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/4789.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/4789.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/10200.py">
