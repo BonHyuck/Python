@@ -18,52 +18,23 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/1860.py" />
-        <option value="$PROJECT_DIR$/10200.py" />
-        <option value="$PROJECT_DIR$/9700.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="798" />
-    <option name="y" value="10" />
-    <option name="width" value="1128" />
-    <option name="height" value="1000" />
-  </component>
   <component name="ProjectId" id="1meMpoB3YsIocyWLltzaLcf2pR5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="D3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="D3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.4751">
+=======
+  <component name="RunManager" selected="Python.5162">
+>>>>>>> f2d18b21e44a2fd1bfee87ee907bf0c0f338e8f5
     <configuration name="10570" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="D3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +77,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="4751" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="11285" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> f2d18b21e44a2fd1bfee87ee907bf0c0f338e8f5
       <module name="D3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,7 +93,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4751.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11285.py" />
+>>>>>>> f2d18b21e44a2fd1bfee87ee907bf0c0f338e8f5
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +106,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="4789" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="5162" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> f2d18b21e44a2fd1bfee87ee907bf0c0f338e8f5
       <module name="D3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +122,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4789.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5162.py" />
+>>>>>>> f2d18b21e44a2fd1bfee87ee907bf0c0f338e8f5
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,6 +157,7 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Python.10570" />
       <item itemvalue="Python.10580" />
       <item itemvalue="Python.5293" />
@@ -183,6 +171,21 @@
         <item itemvalue="Python.5293" />
         <item itemvalue="Python.10580" />
         <item itemvalue="Python.10570" />
+=======
+      <item itemvalue="Python.11285" />
+      <item itemvalue="Python.10570" />
+      <item itemvalue="Python.10580" />
+      <item itemvalue="Python.5293" />
+      <item itemvalue="Python.5162" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.5162" />
+        <item itemvalue="Python.5293" />
+        <item itemvalue="Python.10580" />
+        <item itemvalue="Python.10570" />
+        <item itemvalue="Python.11285" />
+>>>>>>> f2d18b21e44a2fd1bfee87ee907bf0c0f338e8f5
       </list>
     </recent_temporary>
   </component>
@@ -200,33 +203,45 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="798" y="10" width="1128" height="1000" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954128" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32947975" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="WindowStateProjectService">
+    <state width="840" height="258" key="GridCell.Tab.0.bottom" timestamp="1610979023363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="840" height="258" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610979023363" />
+    <state width="840" height="258" key="GridCell.Tab.0.center" timestamp="1610979023363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="840" height="258" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610979023363" />
+    <state width="840" height="258" key="GridCell.Tab.0.left" timestamp="1610979023362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="840" height="258" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610979023362" />
+    <state width="840" height="258" key="GridCell.Tab.0.right" timestamp="1610979023363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="840" height="258" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610979023363" />
+    <state width="840" height="258" key="GridCell.Tab.1.bottom" timestamp="1610979023363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="840" height="258" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610979023363" />
+    <state width="840" height="258" key="GridCell.Tab.1.center" timestamp="1610979023363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="840" height="258" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610979023363" />
+    <state width="840" height="258" key="GridCell.Tab.1.left" timestamp="1610979023363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="840" height="258" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610979023363" />
+    <state width="840" height="258" key="GridCell.Tab.1.right" timestamp="1610979023363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="840" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610979023363" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/4789.py</url>
           <line>18</line>
           <option name="timeStamp" value="5" />
@@ -261,5 +276,23 @@
         </state>
       </provider>
     </entry>
+=======
+          <url>file://$PROJECT_DIR$/5162.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5162.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/5162.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> f2d18b21e44a2fd1bfee87ee907bf0c0f338e8f5
   </component>
 </project>
