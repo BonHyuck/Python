@@ -5,23 +5,27 @@ T = int(input())
 for test_case in range(1, T+1):
     N = int(input())
     result = 0
-    for A in range(N+1):
-        number = 1
-        B = N - A
-        if A > B:
-            for k in range(N, A, -1):
-                number *= k
-            if B != 0:
-                for j in range(1, B+1):
-                    number /= j
-        else:
-            for k in range(N, B, -1):
-                number *= k
-            if A != 0:
-                for j in range(1, A+1):
-                    number /= j
 
-        if number % 2 == 0:
-            result += 1
+    print('#{} {} : {}'.format(test_case, N, result))
 
-    print('#{} {}'.format(test_case, result))
+
+# def pow(a, n):
+#     if n == 0:
+#         return 1
+#     else:
+#         return a * pow(a, n - 1)
+
+
+# T = int(input())
+# ans = []
+# for test_case in range(T):
+#     N = int(input())
+#     M, cnt = N, 0
+#
+#     while N >= 1:
+#         if N % 2:
+#             cnt += 1
+#         N //= 2
+#     ans.append(M + 1 - int(pow(2, cnt)))
+# for i in range(T):
+#     print("#{} {}".format(i + 1, ans[i]))
