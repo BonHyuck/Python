@@ -6,6 +6,9 @@
 7 2 5 3 6
 8 9 5 2 7
 '''
+
+
+
 import sys
 
 sys.setrecursionlimit(100000)
@@ -46,6 +49,5 @@ for rain in range(1, max_height):
         result = safe_zone
 
 print(result)
-
 
 
