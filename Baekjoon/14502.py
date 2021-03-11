@@ -62,4 +62,5 @@ for comb in combs:
         new_box[r][c] = 1
     result = max(result, find_safe())
 
+
 print(result)
