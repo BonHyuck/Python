@@ -137,14 +137,14 @@ for i in range(len(first)):
 
 print(result)
 
-first = input()
-second = input()
-
-dp = [[0 for _ in range(len(second)+1)] for _ in range(len(first)+1)]
-
-for i in range(len(first)):
-    for j in range(len(second)):
-        if first[i] == second[j]:
-            dp[i+1][j+1] = dp[i][j] + 1
-
-print(max(map(max, dp)))
+# first = input()
+# second = input()
+#
+# dp = [[0 for _ in range(len(second)+1)] for _ in range(len(first)+1)]
+#
+# for i in range(len(first)):
+#     for j in range(len(second)):
+#         if first[i] == second[j]:
+#             dp[i+1][j+1] = dp[i][j] + 1
+#
+# print(max(map(max, dp)))
